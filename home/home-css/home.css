@@ -131,3 +131,36 @@ button{
   margin-bottom: 6px;
   border: 5%;
 }
+
+/*footer*/
+.footer{
+  background-color: #E5663E;
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+  color: white;
+  height: 300px;
+  width: 100%;
+  font-family: "Poppins";
+}
+.footer a{
+color: white;
+}
+.footer a:hover{
+color: #262E39;
+}
+.email{
+background: transparent;
+border: 1px solid black;
+}
+#navybutton{
+color: #A0AEC0;
+background-color: #262E39;
+width: 180px;
+height: 40px;
+border-radius: 10px;
+border: none;
+}
+.email::placeholder{
+color: white;
+text-align: center;
+}
