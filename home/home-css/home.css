@@ -88,3 +88,46 @@ button{
   border: 5px;
   margin-top: 5px;
 }
+
+/*review*/
+#port{
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+.images-porfolio{
+  border: 2px;
+  padding: 2px;
+  margin: 2px;
+}
+.p-img{
+  position: relative; 
+}
+.pop-up{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 55%;
+  height: 100%;
+  color: white;
+  background-color: rgba(0,0,0, 0.5);
+  font-weight: bolder;
+  font-family: "Poppins";
+}
+.port-folio{
+  text-align: center;
+  width: 90%;
+  height: 90%;
+  border: 3px solid white;
+}
+#img1 , #img2{
+  width: 300px;
+  height: 450px;
+}
+.customers{
+  padding: 5%;
+  background-color: #262E39;
+  color: white;
+  margin-bottom: 6px;
+  border: 5%;
+}
