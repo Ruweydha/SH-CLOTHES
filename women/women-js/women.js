@@ -166,10 +166,6 @@ function updateCartDetails(){
 
 function purchaseClicked(){
     alert("Thank you for your purchase");
-    // let cartItems = document.getElementsByClassName(".two");
-    // while(cartItems.hasChildNodes()){
-    //     cartItems.removeChild(cartItems, firstChild);
-    // }
     let cartItem =0;
     let totalCost =0;
     let quantity = 0
@@ -177,14 +173,7 @@ function purchaseClicked(){
     localStorage.setItem('cartNumbers', cartItem);
     localStorage.setItem('totalCost', totalCost);
     localStorage.setItem('productsInCart', quantity);
-    document.querySelector(".icon span").textContent = 0;
-
-
-
-
-    
-
-    
+    document.querySelector(".icon span").textContent = 0;   
 }
 $("#checkout").click(function(){
     purchaseClicked();
