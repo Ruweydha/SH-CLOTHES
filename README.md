@@ -1,5 +1,5 @@
 # SH-CLOTHES
-## [SH-CLOTHES](add live link)
+## [SH-CLOTHES](ruweydha.github.io/sh-clothes/)
 
 ## Authors
 Ruweydha Abdinoor| Winifred Kyalo| Felix Mwangi| Alphine Kirimi
@@ -44,7 +44,7 @@ To acces this project, you can clone it using these steps;
 5. Git
 
 ### Live Site
-View [live](add live link) demo.
+View [live](ruweydha.github.io/sh-clothes/) demo.
 
 ### License
 * Licenced under [MIT](LICENSE).
