@@ -44,7 +44,7 @@ To acces this project, you can clone it using these steps;
 5. Git
 
 ### Live Site
-View [live](ruweydha.github.io/sh-clothes/) demo.
+View [live](https://watch.screencastify.com/v/Q4XlVC2vU1TuBlqezdYu) demo.
 
 ### License
 * Licenced under [MIT](LICENSE).
