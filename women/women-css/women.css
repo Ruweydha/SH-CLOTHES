@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Antic+Didone&family=Libre+Baskerville&family=Molle:ital@1&family=Poppins:ital@0;1&family=Raleway:wght@300&display=swap");
+body {
+  font-family: "Antic Didone", serif;
+  font-weight: 900;
+}
+h1,
+h3,
+h5 {
+  font-family: "Raleway";
+  font-weight: 1500;
+}
+.navbar {
+  font-weight: bold;
+  color: #e5663e;
+}
+.icon {
+  font-size: 30px;
+}
+a {
+  color: #e5663e;
+  text-decoration: none;
+}
+a:hover {
+  color: #262e39;
+}
+.first {
+  padding-left: 5%;
+  background-color: #f2dde2;
+  height: 70px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+.women {
+  background-color: #f2dde2;
+  margin-top: 1px;
+  height: 60px;
+}
+.orange {
+  background-color: #e5663e;
+  color: white;
+}
+.image img {
+  height: 400px;
+  width: 485;
+  border-radius: 20px;
+  /* padding: 5%; */
+}
+.navy {
+  background-color: #262e39;
+  color: white;
+}
+#brand {
+  color: #a0aec0;
+}
+.fa-check-circle {
+  color: #e5663e;
+}
+.why {
+  font-size: 25px;
+  text-align: left;
+  padding-left: 35%;
+}
+#why {
+  margin-top: 5%;
+}
+.icons-2 i {
+  font-size: 30px;
+  color: #e5663e;
+}
+.second {
+  background-color: #f2dde2;
+}
+.read {
+  color: #e5663e;
+}
+.second-div {
+  background-color: white;
+  width: 506px;
+  margin-top: 3%;
+  height: 380px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.footer {
+  background-color: #e5663e;
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+  color: white;
+  height: 300px;
+  width: 100%;
+}
+.footer a {
+  color: white;
+}
+.footer a:hover {
+  color: #262e39;
+}
+.email {
+  background: transparent;
+  border: 1px solid black;
+  width: 250px;
+}
+#navybutton {
+  color: #a0aec0;
+  background-color: #262e39;
+  width: 180px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+}
+.email::placeholder {
+  color: white;
+  text-align: center;
+}
+#designer,
+#high {
+  position: relative;
+  top: -220px;
+  width: 170px;
+  height: 40px;
+  border: none;
+}
+#designer {
+  background-color: #e5663e;
+  color: white;
+}
+.clothes-1 img {
+  width: 100%;
+  height: 515px;
+}
+.clothes-2 img {
+  width: 100%;
+  height: 515px;
+}
+.cart button {
+  background-color: #e5663e;
+  color: white;
+  border: none;
+  font-size: x-large;
+}
+.clothes-1 button {
+  position: relative;
+  top: -40px;
+  width: 100%;
+  height: 50px;
+}
+.clothes-2 button {
+  position: relative;
+  top: -40px;
+  width: 100%;
+  height: 50px;
+}
+.clothes-3 button {
+  position: relative;
+  top: -50px;
+  height: 50px;
+  width: 100%;
+}
+#view {
+  background-color: #e5663e;
+  color: white;
+  font-weight: bold;
+  border: none;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+}
+.hide {
+  display: none;
+}
+.add-to-cart {
+  display: none;
+}
+/* Cart products */
+
+.products-container {
+  display: flex;
+  max-width: 650px;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+}
+.product .fa-times-circle,
+.quantity .increase,
+.decrease {
+  font-size: 25px;
+  color: #e5663e;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.product img {
+  width: 100px;
+  height: 100px;
+}
+.product-header {
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 4px solid #a0aec0;
+  margin: 0 auto;
+}
+.product-Title {
+  width: 45%;
+}
+.price,
+.total {
+  width: 15%;
+  display: flex;
+  border-bottom: 1px solid #a0aec0;
+  align-items: center;
+}
+.quantity {
+  width: 30%;
+  border-bottom: 1px solid #a0aec0;
+  display: flex;
+  align-items: center;
+}
+.total {
+  width: 10%;
+}
+.product {
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px, 0;
+  border-bottom: 1px solid #a0aec0;
+}
+.cartTotalContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 10px 0;
+  font-weight: bolder;
+}
+.cartTotalTitle {
+  width: 30%;
+}
+.cartTotal {
+  width: 10%;
+}
+#checkout {
+  background-color: #e5663e;
+  width: 150px;
+  height: 40px;
+  margin: 2%;
+}
