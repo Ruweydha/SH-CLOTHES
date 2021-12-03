@@ -1,5 +1,5 @@
-## SH-CLOTHES
-# ![SH-CLOTHES](add live link)
+# SH-CLOTHES
+## [SH-CLOTHES](add live link)
 
 ## Authors
 Ruweydha Abdinoor| Winifred Kyalo| Felix Mwangi| Alphine Kirimi
