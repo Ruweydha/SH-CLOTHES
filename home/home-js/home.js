@@ -1,0 +1,14 @@
+$("#img1").mouseenter(function(){
+  $("#pop-up1").show(function(){
+    $(this).mouseleave(function(){
+      $(this).hide();
+    });
+  });
+});
+$("#img2").mouseenter(function(){
+$("#pop-up2").show(function(){
+  $(this).mouseleave(function(){
+    $(this).hide();
+  });
+});
+});

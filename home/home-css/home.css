@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Libre+Baskerville&family=Molle:ital@1&family=Poppins:ital@0;1&family=Raleway:wght@300&display=swap');
+body{
+    font-family: 'Antic Didone', serif;
+    font-weight: 900;
+}
+.navbar{
+  font-weight: bold;
+  background-color: white;
+}
+.icon{
+   font-size: 30px;
+}
+a{
+   color: black;
+   text-decoration: none;
+}
+#sh{
+   font-family: 'Antic Didone', serif;
+   font-size: 65px;
+   font-weight: bolder;
+}
+.intro{
+   font-weight: bolder;
+   font-size: 20px;
+}
+.home{
+   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url(../images-home/bg-home4.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+   width: 100%;
+   color: #262E39; 
+   padding: 8%;
+   color: white;
+   font-weight: 700;
+   font-family: 'Raleway', sans-serif;
+}
+.nav{
+   font-size: 18px;
+   font-weight: bolder;
+   font-family: "Poppins";
+}
+button{
+   border-radius: 10%;
+   background-color: #E5663E;
+   color: white;
+   font-family: "Poppins";
+   font-weight: bolder;
+}
+
+/*about*/
+.about{
+  background-color: white;
+  font-size: 20px;
+  font-family: 'Antic Didone', serif;
+  padding: 5%;
+  margin: 0%;
+  border: 0%;
+  color: #E5663E;
+}
+.us{
+  text-decoration: underline;
+  font-weight: 900;
+  width: 100%;
+}
+.secret{
+  font-family: "Poppins";
+}
+
+/*collection*/
+#featured{
+  color: #262E39;
+  font-weight: 900;
+}
+.price{
+  color: #262E39;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+}
+.img-hm{
+  width: 300px;
+  height: 350px;
+}
+.collection{
+  background-color: #F2DDE2;
+  padding: 5px;
+  border: 5px;
+  margin-top: 5px;
+}
+
+/*review*/
+#port{
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+.images-porfolio{
+  border: 2px;
+  padding: 2px;
+  margin: 2px;
+}
+.p-img{
+  position: relative; 
+}
+.pop-up{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 55%;
+  height: 100%;
+  color: white;
+  background-color: rgba(0,0,0, 0.5);
+  font-weight: bolder;
+  font-family: "Poppins";
+}
+.port-folio{
+  text-align: center;
+  width: 90%;
+  height: 90%;
+  border: 3px solid white;
+}
+#img1 , #img2{
+  width: 300px;
+  height: 450px;
+}
+.customers{
+  padding: 5%;
+  background-color: #262E39;
+  color: white;
+  margin-bottom: 6px;
+  border: 5%;
+}
+
+/*footer*/
+.footer{
+  background-color: #E5663E;
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+  color: white;
+  height: 300px;
+  width: 100%;
+  font-family: "Poppins";
+}
+.footer a{
+color: white;
+}
+.footer a:hover{
+color: #262E39;
+}
+.email{
+background: transparent;
+border: 1px solid black;
+}
+#navybutton{
+color: #A0AEC0;
+background-color: #262E39;
+width: 180px;
+height: 40px;
+border-radius: 10px;
+border: none;
+}
+.email::placeholder{
+color: white;
+text-align: center;
+}
